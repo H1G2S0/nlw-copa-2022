@@ -62,7 +62,15 @@ header {
   border-bottom: 2px solid var(--card-color-primary);
   border-radius: 6px;
 }
+.game p {
+  color: white;
+  text-transform: uppercase;
+}
 
+.res {
+  color: white;
+  text-transform: uppercase;
+}
 .card h2 {
   display: flex;
   gap: 16px;
