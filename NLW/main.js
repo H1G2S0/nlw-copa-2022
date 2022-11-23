@@ -40,17 +40,17 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "22/11",
     "terça",
-    createGame("argentina","07:00", "arabiasaudita",'arg', 'as','1X1') +
-      createGame("dinamarca","10:00", "tunisia",'din', 'tun','') +
-      createGame("mexico", "13:00", "polonia",'méx', 'pol','') +
-      createGame("frança", "16:00", "australia",'fra', 'aus','')
+    createGame("argentina","07:00", "arabiasaudita",'arg', 'as','1X2') +
+      createGame("dinamarca","10:00", "tunisia",'din', 'tun','0x0') +
+      createGame("mexico", "13:00", "polonia",'méx', 'pol','0x0') +
+      createGame("frança", "16:00", "australia",'fra', 'aus','4x1')
   ) +
   createCard(
     "23/11",
     "quarta",
-    createGame("marrocos", "07:00", "croacia",'mar', 'cro','') +
-      createGame("alemanha", "10:00", "japao",'ale', 'jap','') +
-      createGame("espanha", "13:00", "costarica",'esp', 'cr','') +
+    createGame("marrocos", "07:00", "croacia",'mar', 'cro','0x0') +
+      createGame("alemanha", "10:00", "japao",'ale', 'jap','1x2') +
+      createGame("espanha", "13:00", "costarica",'esp', 'cr','7x0') +
       createGame("belgica", "16:00", "canada",'bél', 'can','')
   ) +
   createCard(
