@@ -51,45 +51,45 @@ document.querySelector("#cards").innerHTML =
     createGame("marrocos", "07:00", "croacia",'mar', 'cro','0x0') +
       createGame("alemanha", "10:00", "japao",'ale', 'jap','1x2') +
       createGame("espanha", "13:00", "costarica",'esp', 'cr','7x0') +
-      createGame("belgica", "16:00", "canada",'bél', 'can','')
+      createGame("belgica", "16:00", "canada",'bél', 'can','1x0')
   ) +
   createCard(
     "24/11",
     "quinta",
-    createGame("suiça", "07:00", "camaroes",'suí', 'cam','') +
-      createGame("uruguai", "10:00", "coreiadosul",'uru ', 'cs','') +
-      createGame("portugal", "13:00", "gana",'por', 'gan','') +
-      createGame("brasil", "16:00", "servia",'bra', 'sév','')
+    createGame("suiça", "07:00", "camaroes",'suí', 'cam','1x0') +
+      createGame("uruguai", "10:00", "coreiadosul",'uru ', 'cs','0x0') +
+      createGame("portugal", "13:00", "gana",'por', 'gan','3x2') +
+      createGame("brasil", "16:00", "servia",'bra', 'sév','2x0')
   ) +
   createCard(
     "25/11",
     "sexta",
-    createGame("gales", "07:00", "ira",'gal', 'irã','') +
-      createGame("catar", "10:00", "senegal",'cat', 'sen','') +
-      createGame("holanda", "13:00", "equador",'hol', 'equa','') +
-      createGame("inglaterra", "16:00", "estadosunidos",'ing', 'eua','')
+    createGame("gales", "07:00", "ira",'gal', 'irã','0x2') +
+      createGame("catar", "10:00", "senegal",'cat', 'sen','1x3') +
+      createGame("holanda", "13:00", "equador",'hol', 'equa','1x1') +
+      createGame("inglaterra", "16:00", "estadosunidos",'ing', 'eua','0x0')
   ) +
   createCard(
     "26/11",
     "sábado",
-    createGame("tunisia", "07:00", "australia",'tun', 'aus','') +
-      createGame("polonia", "10:00", "arabiasaudita",'pol', 'as','') +
-      createGame("frança", "13:00", "dinamarca",'fra', 'din','') +
-      createGame("argentina", "16:00", "mexico",'arg', 'méx','')
+    createGame("tunisia", "07:00", "australia",'tun', 'aus','0x1') +
+      createGame("polonia", "10:00", "arabiasaudita",'pol', 'as','2x0') +
+      createGame("frança", "13:00", "dinamarca",'fra', 'din','2x1') +
+      createGame("argentina", "16:00", "mexico",'arg', 'méx','2x0')
   ) +
   createCard(
     "27/11",
     "domingo",
-    createGame("japao", "07:00", "costarica",'jap', 'cr','') +
-      createGame("belgica", "10:00", "marrocos",'bél', 'mar','') +
-      createGame("croacia", "13:00", "canada",'cro', 'can','') +
-      createGame("espanha", "16:00", "alemanha",'esp', 'ale','')
+    createGame("japao", "07:00", "costarica",'jap', 'cr','0x1') +
+      createGame("belgica", "10:00", "marrocos",'bél', 'mar','0x2') +
+      createGame("croacia", "13:00", "canada",'cro', 'can','4x1') +
+      createGame("espanha", "16:00", "alemanha",'esp', 'ale','1x1')
   ) +
   createCard(
     "28/11",
     "segunda",
-    createGame("camaroes", "07:00", "servia",'cam', 'sér','') +
-      createGame("coreiadosul", "10:00", "gana",'cs', 'gan','') +
+    createGame("camaroes", "07:00", "servia",'cam', 'sér','3x3') +
+      createGame("coreiadosul", "10:00", "gana",'cs', 'gan','2x3') +
       createGame("brasil", "13:00", "suiça",'bra', 'suí','') +
       createGame("portugal", "16:00", "uruguai",'por', 'uru','')
   ) +
