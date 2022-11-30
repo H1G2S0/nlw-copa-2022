@@ -104,10 +104,10 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "30/11",
     "quarta",
-    createGame("tunisia", "12:00", "frança",'tun', 'fra','') +
-      createGame("australia", "12:00", "dinamarca",'aus', 'din','') +
-      createGame("polonia", "16:00", "argentina",'pol', 'arg','') +
-      createGame("arabiasaudita", "16:00", "mexico",'as', 'méx','')
+    createGame("tunisia", "12:00", "frança",'tun', 'fra','1x0') +
+      createGame("australia", "12:00", "dinamarca",'aus', 'din','1x0') +
+      createGame("polonia", "16:00", "argentina",'pol', 'arg','0x2') +
+      createGame("arabiasaudita", "16:00", "mexico",'as', 'méx','1x2')
   )+
   createCard(
     "01/12",
