@@ -90,16 +90,16 @@ document.querySelector("#cards").innerHTML =
     "segunda",
     createGame("camaroes", "07:00", "servia",'cam', 'sér','3x3') +
       createGame("coreiadosul", "10:00", "gana",'cs', 'gan','2x3') +
-      createGame("brasil", "13:00", "suiça",'bra', 'suí','') +
-      createGame("portugal", "16:00", "uruguai",'por', 'uru','')
+      createGame("brasil", "13:00", "suiça",'bra', 'suí','1x0') +
+      createGame("portugal", "16:00", "uruguai",'por', 'uru','2x0')
   ) +
   createCard(
     "29/11",
     "terça",
-    createGame("equador", "07:00", "senegal",'equa', 'sen','') +
-      createGame("polonia", "10:00", "arabiasaudita",'pol', 'as','') +
-      createGame("frança", "13:00", "dinamarca",'fra', 'din','') +
-      createGame("argentina", "16:00", "mexico",'arg', 'méx','')
+    createGame("equador", "12:00", "senegal",'equa', 'sen','1x2') +
+      createGame("holanda", "12:00", "catar",'hol', 'cat','2x0') +
+      createGame("ira", "16:00", "estadosunidos",'irã', 'eua','0x1') +
+      createGame("gales", "16:00", "inglaterra",'gal', 'ing','0x3')
   )  +
   createCard(
     "30/11",
