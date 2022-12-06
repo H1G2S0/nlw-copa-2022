@@ -120,8 +120,8 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "02/12",
     "sexta",
-    createGame("coreiadosul", "12:00", "portugal",'cs', 'por','') +
-      createGame("gana", "12:00", "uruguai",'gana', 'uru','') +
-      createGame("servia", "16:00", "suiça",'sér', 'suí','') +
-      createGame("camaroes", "16:00", "brasil",'cam', 'bra','')
+    createGame("coreiadosul", "12:00", "portugal",'cs', 'por','2x1') +
+      createGame("gana", "12:00", "uruguai",'gana', 'uru','0x2') +
+      createGame("servia", "16:00", "suiça",'sér', 'suí','2x3') +
+      createGame("camaroes", "16:00", "brasil",'cam', 'bra','1x0')
   )
