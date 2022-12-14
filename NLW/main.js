@@ -15,7 +15,8 @@ function createGame(player1, hour, player2, siglaPlay1, siglaPlay2, res) {
   `
 }
 let delay = -0.3
-function createCard(date, day, games) {
+
+function createCard(date , day, games) {
   delay = delay + 0.3
   return `
   <div class="card" style="animation-delay: ${delay}s">
@@ -26,13 +27,21 @@ function createCard(date, day, games) {
       </div>
         `
 }
+
+function createFase(fase){
+  return `
+  <div class="grupo" style="animation-delay: ${delay}s">
+          <h2><span>${fase}</span></h2>
+      </div>
+  `
+}
+
 document.querySelector("#cards").innerHTML =
-  createCard("20/11", "domingo", 
+  createCard("20/11", "domingo",
     createGame("catar", "13:00", "equador", 'cat', 'equad', '0X2')) +
 
   createCard(
-    "21/11",
-    "segunda",
+    "21/11", "segunda",
     createGame("inglaterra", "10:00", "ira",'ing', 'irã', '6X2') +
       createGame("senegal", "13:00", "holanda",'sen', 'hol', '0X2') +
       createGame("estadosunidos", "16:00", "gales",'eua', 'gales', '1X1')
@@ -124,4 +133,18 @@ document.querySelector("#cards").innerHTML =
       createGame("gana", "12:00", "uruguai",'gana', 'uru','0x2') +
       createGame("servia", "16:00", "suiça",'sér', 'suí','2x3') +
       createGame("camaroes", "16:00", "brasil",'cam', 'bra','1x0')
+  ) +
+
+  createCard(
+    "03/12" , "sábado",
+    createFase("oitavas de final") +
+      createGame("holanda","12:00","estadosunidos",'hol', 'eua', '3x1') +
+      createGame('argentina', '12:00', 'australia','arg','aus', '2x1')
+  ) +
+
+  createCard(
+    '04/12', 'domingo',
+    createFase('oitavas de final') +
+      createGame('frança', '12:00','polonia','fra','pol','3x1') +
+      createGame('inglaterra','12:00','senegal','ing','sen','3x0')
   )
